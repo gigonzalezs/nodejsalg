@@ -31,8 +31,13 @@
         };
       }
     }
-    
-    return matches;
+    matches.push(lastMatch);
+
+    if (matches.length > 0){
+      matches.sort((a,b) => a.length > b.length ? -1 : 0);
+      return matches[0].value;
+    } else 
+    return '';
   }
 
   

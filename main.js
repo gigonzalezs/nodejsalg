@@ -1,8 +1,7 @@
-import longestCommonSubstring from "./demo.js"
+import longestCommonSubstring from "./demo2.js"
 
 const result4 = longestCommonSubstring('hola hola hola', 'hola');
 console.log(result4);
-
 
 const result = longestCommonSubstring('abcdxhijk', 'bcdefghijk');
 console.log(result);
